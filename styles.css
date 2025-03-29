@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(210, 200, 250, 0.829);
+}
+
+table{
+    margin-top: 100px;
+    margin-left: 300px;
+    width:75%;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px; 
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
+
+td{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+.classi td{
+    color: rgb(73, 43, 243);
+    background-color: rgb(180, 165, 243);
+}
+.mira, .limoeiro{
+    background-color: rgba(150, 131, 185, 0.123);
+}
+
+.placares {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 700px;
+    flex-wrap: wrap;
+}
+.placar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); 
+    width: 300px;  
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gol {
+    font-size: 30px;
+    margin: 5px;
+}
+.botao {
+    background: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botao:hover {
+    background: #ddd;
+}
+
+
+h1{
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(77, 28, 156);
+}
+h2{
+    text-align: center;
+    color:rgb(77, 28, 156) ;
+}
+.grupo{
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+#vai{isplay: block;
+    margin: auto;
+    margin-top: 30px;
+}
